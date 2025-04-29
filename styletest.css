@@ -83,7 +83,7 @@ section h2 {
   font-size: 2.2em;
   text-transform: uppercase;
   letter-spacing: 2px;
-  animation: slideIn 1s ease-out; /* Animasi masuk untuk judul */
+  animation: slideIn 1s ease-out;
 }
 
 section img {
@@ -122,11 +122,10 @@ footer a {
 }
 
 .foto-tentang {
-  border-radius: 50%;
-  width: 160px;
-  height: 160px;
-  object-fit: cover;
   border: 6px solid #ffdd57;
+  border-radius: 12px;
+  max-width: 80%;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
   margin-top: 20px;
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
 }
